@@ -1,6 +1,7 @@
 import React from "react";
 
-function CategoryFilter({categories,click}) {
+// function CategoryFilter({categories,click}) {
+  
 export default function CategoryFilter({categories,click}) {
   const buttons = categories.map((category, ind) => {
     return (
@@ -16,4 +17,5 @@ export default function CategoryFilter({categories,click}) {
   );
 }
 
-// export default CategoryFilter;
+
+

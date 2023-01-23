@@ -1,7 +1,7 @@
 import React from "react";
 // import {useState} from "react";
 
-function NewTaskForm({onTaskFormSubmit, categories}) {
+// function NewTaskForm({onTaskFormSubmit, categories}) {
 export default  function NewTaskForm({onTaskFormSubmit, categories}) {
   let newArr = categories.filter(cat => cat !== "All").map((cat, ind) => <option key={ind}>{cat}</option>);
   // const[text, setText]= useState('')
@@ -36,4 +36,4 @@ export default  function NewTaskForm({onTaskFormSubmit, categories}) {
   );
 }
 
-// export default NewTaskForm;
+

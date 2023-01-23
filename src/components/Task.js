@@ -1,7 +1,7 @@
 
 import React from "react";
 
-function Task({text,task, category, click}) {
+// function Task({text,task, category, click}) {
 export default  function Task({text,task, category, click}) {
   return (
     <div className="task">
@@ -20,5 +20,5 @@ export default  function Task({text,task, category, click}) {
   );
 }
 
-// export default Task;
+
 

@@ -5,13 +5,14 @@ import NewTaskForm from "./NewTaskForm";
 import TaskList from "./TaskList";
 
 import { CATEGORIES, TASKS } from "../data";
+
 console.log("Here's the data you're working with");
 console.log({ CATEGORIES, TASKS });
 
-function App() {
+// function App() {
 
-export default function App() {
-  
+ export default function App() {
+
 	let tasks = TASKS;
   const [list, setList] = React.useState(tasks);
   const [deletedList, setDeleted] = React.useState(tasks);
